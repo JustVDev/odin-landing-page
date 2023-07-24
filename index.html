@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Coffee Time</title>
+
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./img/favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./img/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./img/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="/site.webmanifest" />
+		<link
+			rel="shortcut icon"
+			href="./img/favicon/favicon.ico"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<img src="./img/favicon/android-chrome-192x192.png" alt="Coffee Time" />
+				<!-- nav links -->
+				<ul>
+					<li><a href="#"></a>About</li>
+					<li><a href="#"></a>Store</li>
+					<li><a href="#"></a>Contact</li>
+				</ul>
+			</header>
+
+			<main>
+				<div class="main-content">
+					<h1>Welcome to Coffee Time</h1>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+						eveniet quo assumenda? Magnam voluptatum iste ipsum, saepe vel
+						voluptates maxime voluptatem quaerat excepturi unde.
+					</p>
+					<button class="btn">Click for discounts!</button>
+				</div>
+				<img src="./img/main.jpg" alt="our store" class="main-img" />
+			</main>
+
+			<section class="specials">
+				<h3>View our current specials!</h3>
+				<div class="special-cards">
+					<!-- single card -->
+					<div class="card">
+						<img src="./img/latte.jpg" alt="latte" />
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt!
+						</p>
+					</div>
+					<!-- end of single card -->
+					<!-- single card -->
+					<div class="card">
+						<img src="./img/mocha.jpg" alt="mocha" />
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt!
+						</p>
+					</div>
+					<!-- end of single card -->
+					<!-- single card -->
+					<div class="card">
+						<img src="./img/boba.jpg" alt="boba" />
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt!
+						</p>
+					</div>
+					<!-- end of single card -->
+					<!-- single card -->
+					<div class="card">
+						<img src="./img/waffle.jpg" alt="waffle" />
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt!
+						</p>
+					</div>
+					<!-- end of single card -->
+				</div>
+			</section>
+
+			<section class="quote">
+				<h4>"Believe you can and you're halfway there."</h4>
+				<h4>- Theodore Roosevelt</h4>
+			</section>
+
+			<section class="cta">
+				<h3>Weekly newsletter & discounts!</h3>
+				<p>
+					Become part of our family. Ask about our "member only" free waffle
+				</p>
+				<button class="btn">Sign Up!</button>
+			</section>
+
+			<footer>
+				<h6>Copyright &copy; The Odin Project <span id="year"></span></h6>
+			</footer>
+		</div>
+	</body>
+	<script>
+		year.innerHTML = new Date().getFullYear();
+	</script>
+</html>
