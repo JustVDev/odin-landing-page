@@ -28,10 +28,12 @@ h6 {
 	color: #e5e7eb;
 }
 .btn,
-.cta {
+.cta-wrapper {
 	background: #3882f6;
 }
-
+.cta-wrapper {
+	padding: 8rem;
+}
 h3 {
 	font-size: 36px;
 	color: #1f2937;
@@ -67,12 +69,10 @@ li {
 	font-size: 24px;
 	color: #1f2937;
 }
-.cta-text{
+.cta-text {
 	color: #f9faf8;
-	
 }
-.cta-text > h3{
-	
+.cta-text > h3 {
 	color: #f9faf8;
 }
 /* my styling */
@@ -80,8 +80,7 @@ li {
 	display: flex;
 	flex-direction: column;
 }
-.wrapper{
-
+.wrapper {
 	padding-left: 5vw;
 	padding-right: 5vw;
 }
@@ -91,65 +90,61 @@ header .wrapper {
 	justify-content: space-between;
 	height: 10vh;
 }
-header{
-	
+header {
 	z-index: 1000;
-	
 }
-.wrapper{
+.wrapper {
 	padding: 1rem;
 }
 .nav {
 	display: flex;
 }
 
-img{
+img {
 	width: 100%;
 }
-.main-img{
+.main-img {
 	height: 200px;
 	object-fit: cover;
-	
 }
 
-
-.main{
+.main {
 	display: flex;
 	padding-top: 10vh;
 }
-.main .wrapper{
+.main .wrapper {
 	display: flex;
 	gap: 8px;
-
 }
 .specials .wrapper h3 {
 	text-align: center;
 }
-.special-cards{
+.special-cards {
 	display: flex;
 	justify-content: center;
 	gap: 1rem;
 }
-.card{
+.card {
 	flex: 0 0 10rem;
 	text-align: center;
 }
 
-.card img{
+.card img {
 	height: 10rem;
 	width: 10rem;
 	object-fit: cover;
 }
 
-.quote-text, .quote-name{
+.quote-text,
+.quote-name {
 	text-align: center;
 }
-.quote-name{
+.quote-name {
 	transform: translateX(10rem);
 	font-weight: bold;
 }
 
-.cta{
+.cta {
 	display: flex;
 	justify-content: center;
 	place-items: center;
@@ -157,24 +152,24 @@ img{
 	height: 40vh;
 }
 
-.cta-wrapper{
+.cta-wrapper {
 	display: flex;
 	justify-content: space-between;
 	width: 90vw;
-} 
+}
 .cta-text h3,
-.cta-text p{
+.cta-text p {
 	margin-right: auto;
 	padding: 0;
 	margin: 0;
 }
-.btn{
+.btn {
 	align-self: center;
 	border: 2px solid white;
 	border-radius: 10px;
 	padding: 8px;
 }
 
-.footer{
+.footer {
 	text-align: center;
 }
