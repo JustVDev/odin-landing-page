@@ -3,7 +3,9 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'roboto', sans-serif;
 }
+
 ul,
 li {
 	padding: 8px;
@@ -65,18 +67,114 @@ li {
 	font-size: 24px;
 	color: #1f2937;
 }
+.cta-text{
+	color: #f9faf8;
+	
+}
+.cta-text > h3{
+	
+	color: #f9faf8;
+}
 /* my styling */
-.container {
+.main-container {
 	display: flex;
 	flex-direction: column;
 }
+.wrapper{
 
-header {
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+header .wrapper {
 	display: flex;
 	justify-content: space-between;
 	height: 10vh;
 }
-
+header{
+	
+	z-index: 1000;
+	
+}
+.wrapper{
+	padding: 1rem;
+}
 .nav {
 	display: flex;
+}
+
+img{
+	width: 100%;
+}
+.main-img{
+	height: 200px;
+	object-fit: cover;
+	
+}
+
+
+.main{
+	display: flex;
+	padding-top: 10vh;
+}
+.main .wrapper{
+	display: flex;
+	gap: 8px;
+
+}
+.specials .wrapper h3 {
+	text-align: center;
+}
+.special-cards{
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+.card{
+	flex: 0 0 10rem;
+	text-align: center;
+}
+
+.card img{
+	height: 10rem;
+	width: 10rem;
+	object-fit: cover;
+}
+
+.quote-text, .quote-name{
+	text-align: center;
+}
+.quote-name{
+	transform: translateX(10rem);
+	font-weight: bold;
+}
+
+.cta{
+	display: flex;
+	justify-content: center;
+	place-items: center;
+	padding: 1rem;
+	height: 40vh;
+}
+
+.cta-wrapper{
+	display: flex;
+	justify-content: space-between;
+	width: 90vw;
+} 
+.cta-text h3,
+.cta-text p{
+	margin-right: auto;
+	padding: 0;
+	margin: 0;
+}
+.btn{
+	align-self: center;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 8px;
+}
+
+.footer{
+	text-align: center;
 }
