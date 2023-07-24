@@ -1,0 +1,82 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul,
+li {
+	padding: 8px;
+	list-style-type: none;
+}
+/* provided styles */
+header,
+footer,
+main {
+	background: #1f2937;
+}
+h1 {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+}
+.hero-text,
+h6 {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+.btn,
+.cta {
+	background: #3882f6;
+}
+
+h3 {
+	font-size: 36px;
+	color: #1f2937;
+}
+.cta > h3,
+.cta > p {
+	color: #f9faf8;
+}
+.btn {
+	color: #f9faf8;
+}
+.logo {
+	font-size: 24px;
+	color: #f9faf8;
+}
+li {
+	color: #f9faf8;
+}
+
+.card > img {
+	border: 3px solid #3882f6;
+}
+
+.quote {
+	background: #e5e7eb;
+}
+.quote-text {
+	font-size: 36px;
+	font-style: italic;
+	color: #1f2937;
+}
+.quote-name {
+	font-size: 24px;
+	color: #1f2937;
+}
+/* my styling */
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	height: 10vh;
+}
+
+.nav {
+	display: flex;
+}
